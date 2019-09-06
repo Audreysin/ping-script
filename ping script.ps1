@@ -2,7 +2,7 @@
 # Requires the input file to have a column header named 'Pingable?' which is to be updated by the script
 
 # Set $path to be the path of the file containing the servers/ip address... to be pinged
-$path = "C:\Users\aulam\Documents\vi report\vi server list.csv"
+$path = "C:\Users\aulam\Documents\server list.csv"
 $list = import-csv $path
 
 Write-Host "Started Pinging.."
